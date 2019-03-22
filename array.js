@@ -17,3 +17,20 @@ function array () {
     console.log("kerjaan adalah" , kerjaan[3])
 }
 array();
+console.log("=======================================");
+function nestedArray() {
+    var anggota = [["Yazid", "kumbang", "ammar"],
+                   ["dua", "tiga", "empat"],
+                   [2,4,6,8,10]]
+    console.log("cetak :", anggota[0][2])
+}
+nestedArray();
+console.log("=======================================")
+function arrayPercabangan() {
+    var team = [[0,7,9,5,4],
+                ["kamal","bacrur", "rozikin"],
+                ['a','b','c','d']]
+    console.log(team.length);
+    console.log("cetaknya adalah:", team[2][1]);
+}
+arrayPercabangan();
