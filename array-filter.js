@@ -27,3 +27,16 @@ function cobalagi() {
     return kelasRPL;
 }
 console.log(cobalagi())
+console.log("=================================================")
+function cobaFilter() {
+    var mobil = [{merk : "honda", tipe : "jazz"},
+                 {merk : "mitsubishi", tipe : "xpander"},
+                 {merk : "honda" , tipe : "hrv"},
+                 {merk : "toyota", tipe : "avanza"} 
+                ];
+    var namaMobil = mobil.filter(function(item){
+        return item.merk === "honda";
+    });
+    return namaMobil;
+}
+console.log(cobaFilter())
