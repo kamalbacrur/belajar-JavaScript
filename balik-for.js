@@ -14,6 +14,6 @@ function balik(kalimat){
         pesan = pesan + kalimat[i]
     }
     return pesan;
-}
+}   
 console.log(balik("saya mencoba balik kata"))     //atak kilab abocnem ayas
 console.log(balik("saya sudah bisa balik kata"))  //atak kilab asib hadus ayas
